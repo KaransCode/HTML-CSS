@@ -1,0 +1,255 @@
+* {
+  /* /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+
+.head {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-left: 100px;
+  background-image: url(images/Kc.png);
+  background-position: center;
+  background-size: cover;
+  width: 99px;
+  height: 99px;
+  background-position: 40% 111%;
+  margin-top: 10px;
+}
+
+.menu {
+  margin: 50px;
+}
+.menu i {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 80px 10px;
+  font-family: "Lato";
+  text-align: justify;
+}
+.food {
+  display: contents;
+}
+.food img {
+  border-radius: 28%;
+  max-width: 48%;
+}
+.text-content {
+  max-width: 50%;
+  margin-left: 20px;
+}
+.text-content h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.text-content p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.discount {
+  background-color: green;
+  color: aliceblue;
+  font-weight: bold;
+  width: fit-content;
+  font-size: 20px;
+  padding: 10px;
+}
+.btn {
+  display: inline-block;
+  background-color: #ffa500;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.features {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.features section {
+  width: 22%;
+  font-size: 1rem;
+  display: flex;
+}
+
+.features img {
+  width: 80%;
+}
+
+.features aside {
+  width: 50%;
+}
+
+.features article h4 {
+  font-weight: bold;
+}
+.features article p {
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+hr {
+  width: 70%;
+  color: black;
+}
+
+.menu {
+  font-family: "Lato", monospace;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  margin: 50px 0;
+}
+.menu .head {
+  align-items: center;
+}
+
+.menu .head {
+  background-color: green;
+  color: aliceblue;
+  width: fit-content;
+  font-size: 20px;
+  padding: 10px;
+}
+.menu h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  height: 900px;
+  width: 60%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  grid-template-areas:
+    "i1 i1 i3"
+    "i2 i2 i3"
+    "i4 i4 i4"
+    "i5 i5 i5";
+}
+.grid img {
+  width: 100%;
+  background-size: cover;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7 {
+  overflow-y: hidden;
+}
+.item1 {
+  grid-area: i1;
+}
+.item2 {
+  grid-area: i2;
+}
+.item3 {
+  grid-area: i3;
+}
+.item4 {
+  grid-area: i4;
+}
+.item5 {
+  grid-area: i5;
+}
+.item6 {
+  grid-area: i6;
+}
+.item7 {
+  grid-area: i7;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Adjust columns based on the desired pattern */
+  gap: 10px; /* Adjust the spacing between the images */
+  padding: 20px;
+  height: 40vw;
+  overflow-y: hidden;
+}
+
+.gallery img {
+  width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  margin: auto; /* Maintain image aspect ratio */
+}
+
+.gallery img:nth-child(1) {
+  grid-column: span 2; /* Make the first image span 2 columns */
+  grid-row: span 2; /* Make the first image span 2 rows */
+}
+
+.gallery img:nth-child(3) {
+  grid-row: span 2; /* Make the third image span 2 rows */
+}
+footer {
+  background-color: bisque;
+  font-family: "Lato", sans-serif;
+}
+.footer-container {
+  margin: 0;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.links {
+  margin: 0px 25px;
+}
+
+.links li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.links h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.footer-logo {
+  height: 90px;
+  width: 90px;
+  background-image: url(images/image.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.icon{
+overflow-y: hidden;
+overflow-x: hidden;
+margin: 0;
+}

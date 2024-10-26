@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    margin-top: 10px ;
+}
+
+.form{
+    background-color: rgb(236, 224, 210);
+    height: 73vw;
+    width: 60vw;
+    outline: none;
+    border: none;
+    margin: auto;
+    border-radius: 40px;
+    border: 2px solid #000;
+    padding: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+    gap: 20px; /* Space between grid items */
+}
+
+.grid-container input {
+    border: 2px solid #000;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+form .txt{
+    height: 20px;
+    width: 30%;
+}
+
+.input-group , .select{
+    height: 43%;
+    width: 70%;
+    margin-left: 105px;
+    padding-top: 20px;
+}
+
+form input[type = "text"] , form input[type = "date"], input[type = "file"] , input[type = "mail"]  {
+    background-color: rgb(233, 232, 219);
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.select.job-role{
+    display: grid;
+    gap: 1rem;
+    height: 42px;
+    width: 80%;
+}
+
+select#role{
+    background: rgb(238, 237, 219);
+    height: 28px;
+    width: 61%;
+    text-align: center;
+}
+
+form option{
+    background-color: rgb(233, 232, 219);
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button.apply-button{
+
+    background-color: rgb(236, 88, 88);
+    font-size: 18px;
+    width: 150px;
+    height: 38px;
+    position: relative;
+    left: 70%;
+    color: aliceblue;
+    border-radius: 51px;
+    outline: none;
+    border: none;
+}
+
+@media (max-width: 500px) {
+    .form {
+        width: 90%;
+    }
+}

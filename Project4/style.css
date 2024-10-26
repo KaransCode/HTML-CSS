@@ -1,0 +1,170 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Lato", monospace;
+}
+
+.hero {
+  position: relative;
+  background-image: url(images/dvlper.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.hero h2,
+.hero h4 {
+  margin: 0;
+  position: absolute;
+  display: inline;
+}
+.hero h1 {
+  position: absolute;
+  left: 25%;
+  top: 81%;
+  text-transform: uppercase;
+  font-size: 2rem;
+  background-color: WHITE;
+  padding: 9px 14px;
+  letter-spacing: 5px;
+  transform: rotate(5deg);
+  border-radius: 5px;
+}
+
+h2 {
+  top: 11%;
+  left: 34%;
+  font-size: 3em;
+  margin-right: 20px;
+}
+h4 {
+  top: 13%;
+  left: 49%;
+  font-size: 2rem;
+  background: #7b6c6c;
+  color: whitesmoke;
+  padding: 2px 5px;
+}
+
+.work {
+  margin: 0;
+  background-color: black;
+  overflow-x: hidden;
+}
+.work h3 {
+  position: relative;
+  color: azure;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  left: 0%;
+  text-align: center;
+  letter-spacing: 8px;
+  background-color: brown;
+  padding: 12px 0px;
+  top: 5%;
+}
+
+.main {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: center; /* Distribute space around the cards */
+  margin: 30px 0px;
+}
+
+.card {
+  background: #f9f9f9; /* Light background for the cards */
+  border: 1px solid #ddd; /* Border around the card */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Spacing inside the card */
+  width: 25%; /* Each card takes up 30% of the container width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Light shadow for depth */
+  text-align: center;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px; /* Space below the card title */
+}
+
+.card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.card .web {
+  background-image: url(images/web.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+.card .app {
+  background-image: url(images/app.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+.card .ui {
+  background-image: url(images/ui.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+.card:hover {
+  transform: scale(0.9);
+  transition: 0.5s ease-in-out;
+}
+
+.info{
+    display: flex;
+    height: 200px;
+}
+
+.contact , .about{
+    width: 50%;
+    font-size: 1.7rem;
+    color: #ddd;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    text-indent: 20px;
+}
+.contact h3 {
+    font-weight: 300;
+    font-size: 25px;
+    text-align: justify;
+}
+.about p{
+    font-weight: 300;
+    font-size: 22px;
+    text-align: justify;
+    padding: 0px 5px;
+}
+
+.contact{
+    background-color: rgb(69, 15, 15);
+}
+.about{
+    background-color: rgb(3, 66, 3);
+}
+
+footer{
+    margin: 0;
+    height: 50px;
+    background-color: rgb(148, 145, 145);
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem ;
+    margin-top: 10px;
+    position: absolute;
+    left: 42%;
+}
